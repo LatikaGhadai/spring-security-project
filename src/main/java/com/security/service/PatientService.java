@@ -8,5 +8,6 @@ public interface PatientService {
 	
 	public Patient save(Patient patient);
 	public List<Patient> getAll();
+	public Patient getByid(int id);
 
 }
